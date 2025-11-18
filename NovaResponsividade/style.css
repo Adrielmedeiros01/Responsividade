@@ -1,0 +1,71 @@
+body {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    padding-bottom: 0;
+    border: solid 1px;
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid 1px;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    height: 500px;
+}
+
+main .dir {
+    width: 50%;
+    border: solid 1px;
+    padding: 30px;
+
+}
+
+main form {
+    border: solid 1px;
+    padding: 5px;
+}
+
+main input {
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+main .esq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: solid 1px;
+ 
+}
+
+
+
+footer {
+    border: solid 1px;
+   
+}
+footer p{
+    text-align: center;
+    padding: 10px
+}
